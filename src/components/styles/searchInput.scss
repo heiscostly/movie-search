@@ -1,0 +1,33 @@
+.search {
+    margin: 35px 97px;
+
+    label {
+        display: block;
+
+        span {
+            display: block;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 31px;
+
+            color: #000000;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+
+
+        }
+    }
+}
+
+
+@media(max-width:768px) {
+    .search {
+        margin: 18px;
+
+    }
+}

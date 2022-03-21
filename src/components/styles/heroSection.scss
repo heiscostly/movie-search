@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400;1,500;1,700&display=swap');
+
+.hero__container {
+
+    height: 550px;
+
+    .hero__content {
+        padding: 109px 97px;
+
+        h1 {
+            font-family: 'DM Sans'sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 72px;
+            line-height: 94px;
+            letter-spacing: -0.05em;
+
+            color: #FFFFFF;
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .hero__container {
+        height: auto;
+        text-align: center;
+    }
+
+    .hero__container .hero__content h1 {
+        font-size: 38px;
+        line-height: 59px;
+
+    }
+}
+
+@media(max-width:508px) {
+    .hero__container {
+        text-align: center;
+    }
+
+    .hero__container .hero__content h1 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+}

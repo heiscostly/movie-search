@@ -1,0 +1,65 @@
+.home {
+    padding: 67px 94px;
+
+    h2 {
+        font-family: Helvetica, sans-serif;
+        font-size: 44px;
+        font-weight: 900;
+        color: #000000;
+    }
+
+    .home__filters {
+        padding-top: 73px;
+
+        p {
+            font-family: Helvetica, sans-serif;
+
+            font-size: 16px;
+            font-weight: bold;
+            color: #192024
+        }
+
+        .checkboxes {
+            padding-top: 23px;
+            display: flex;
+            align-items: center;
+
+            form {
+                display: flex;
+                gap: 24px;
+                flex-wrap: wrap;
+            }
+
+            span {
+                display: flex;
+
+                .input {
+                    display: flex;
+                    align-items: center;
+
+                    input[type="checkbox"] {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    label {
+                        padding: 0 10px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+// @media(max-width:768px) {
+    //     .home {
+    //         padding: 67px 34px;
+    //     }
+    // }
+
+@media(max-width:508px) {
+    .home {
+        padding: 67px 34px;
+    }
+}

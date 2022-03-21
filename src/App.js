@@ -1,0 +1,20 @@
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+
+import "./App.scss";
+import Navbar from "./components/Navbar";
+import Home from "./views/Home";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </>
+  );
+}
+
+export default App;
