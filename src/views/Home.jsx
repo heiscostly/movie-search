@@ -11,7 +11,7 @@ const Home = () => {
     results: [],
   });
 
-  const apiurl = `http://www.omdbapi.com/?i=tt3896198&apikey=e6867dee`;
+  const apiurl = "https://www.omdbapi.com/?i=tt3896198&apikey=e6867dee";
 
   const search = (e) => {
     if (e.key === "Enter") {
