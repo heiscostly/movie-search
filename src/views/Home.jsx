@@ -10,8 +10,8 @@ const Home = () => {
     s: "",
     results: [],
   });
-const allow = "https://cors-anywhere.herokuapp.com"
-  const apiurl = `${allow}/http://www.omdbapi.com/?i=tt3896198&apikey=e6867dee`;
+
+  const apiurl = `http://www.omdbapi.com/?i=tt3896198&apikey=e6867dee`;
 
   const search = (e) => {
     if (e.key === "Enter") {
