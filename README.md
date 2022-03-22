@@ -1,1 +1,1 @@
-KAYAK Frontend Engineer Coding Exercise
+Frontend Engineer Coding Exercise
